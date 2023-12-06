@@ -54,15 +54,12 @@ education:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-      header: true
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=bu7Opp4AAAAJ&hl=zh-CN&oi=ao
-
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/yinshan-cai-8a2011278/?originalSubdomain=be
