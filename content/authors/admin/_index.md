@@ -57,7 +57,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    mailto:yinshan.cai@kuleuven.be
+    mailto: yinshan.cai@kuleuven.be
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=bu7Opp4AAAAJ&hl=zh-CN&oi=ao
