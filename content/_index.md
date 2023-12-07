@@ -233,7 +233,7 @@ sections:
 #      subtitle:
 #      text: |-
 #        If you have any questions or would like to work with me, please feel free to contact me!
-      # Contact (add or remove contact options as necessary)
+      #  Contact (add or remove contact options as necessary)
 #      email: yinshan.cai@kuleuven.be
 #      appointment_url: 'https://calendly.com'
 #      address:
