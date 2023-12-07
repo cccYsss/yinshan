@@ -14,8 +14,8 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Mechanical Systems and Signal Processing"
+publication_short: "MSSP"
 abstract: AAAA 
 
 # Summary. An optional shortened abstract.
