@@ -95,4 +95,3 @@ sections:
          folders:
            - publication
          featured_only: true
----
