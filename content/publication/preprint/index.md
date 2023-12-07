@@ -1,7 +1,5 @@
 ---
-title: "Model order reduction of time-domain vibro-acoustic
-finite element simulations with admittance boundary
-conditions for virtual sensing applications"
+title: "Model order reduction of time-domain vibro-acoustic finite element simulations with admittance boundary conditions for virtual sensing applications"
 authors:
 - admin
 date: "2019-04-07T00:00:00Z"
