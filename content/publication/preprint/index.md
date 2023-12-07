@@ -1,8 +1,10 @@
 ---
-title: "An example journal article"
+title: "Model order reduction of time-domain vibro-acoustic finite element simulations with admittance boundary conditions for virtual sensing applications"
 authors:
 - admin
-- Robert Ford
+- Sjoerd van Ophem
+- Wim Desmet
+- Elke deckers
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
@@ -18,23 +20,23 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "Mechanical Systems and Signal Processing"
+publication_short: "MSSP"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Virtual sensing employs an estimator that combines a numerical model and a limited set of measurements to estimate the full field pressure of a vibro-acoustic system in the time domain. A key aspect of virtual sensing is to create a reduced-order model of the vibro-acoustic system, such that the numerical model can be effectively employed in the virtual sensing scheme. This paper aims to create a reduced-order vibro-acoustic finite element model with frequency-dependent admittance boundary conditions for virtual sensing applications using a Kalman filter. The frequency-dependent components in admittance boundary conditions always result in a frequency-dependent damping matrix which hinders the modeling in the time domain. This paper first treats the vibro-acoustic system as a negative feedback interconnection of two subsystems: a state-space model of admittance transfer functions and a vibro-acoustic system with rigid boundary conditions. Stacking the states of these two subsystems gives the final descriptor system. Then, due to the passivity of the admittance transfer function and the definiteness of the system matrices, the second-order form of the descriptor model is modified to give a full-order model which is proven to be stability-preserving under one-sided projection methods. A coupled vibro-acoustic system is experimentally presented which demonstrates that the proposed methodology can provide a stable reduced order model and allows the full field estimation of the pressure in the presence of frequency-dependent boundary conditions.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: ''
 
 tags:
 - Source Themes
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+links:
+ - name: "Full Paper"
+   url: "https://www.sciencedirect.com/science/article/pii/S0888327023007550"
+url_pdf:''
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
