@@ -16,7 +16,7 @@ publication_types: ["article-journal"]
 # Publication name and optional abbreviated publication name.
 publication: "Mechanical Systems and Signal Processing"
 publication_short: ""
-abstract:AAAA 
+abstract: AAAA 
 
 # Summary. An optional shortened abstract.
  summary: ''
