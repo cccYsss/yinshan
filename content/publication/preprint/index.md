@@ -6,8 +6,8 @@ authors:
 - Wim Desmet
 - Elke deckers
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
+- ""
+- ""
 date: "2015-09-01T00:00:00Z"
 doi: ""
 
