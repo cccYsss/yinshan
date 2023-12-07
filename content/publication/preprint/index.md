@@ -11,7 +11,7 @@ publishDate: "2017-01-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
@@ -19,7 +19,7 @@ publication_short: ""
 abstract: Virtual sensing employs an estimator that combines a numerical model and a limited set of measurements to estimate the full field pressure of a vibro-acoustic system in the time domain. A key aspect of virtual sensing is to create a reduced-order model of the vibro-acoustic system, such that the numerical model can be effectively employed in the virtual sensing scheme. This paper aims to create a reduced-order vibro-acoustic finite element model with frequency-dependent admittance boundary conditions for virtual sensing applications using a Kalman filter. The frequency-dependent components in admittance boundary conditions always result in a frequency-dependent damping matrix which hinders the modelling in the time domain. This paper first treats the vibro-acoustic system as a negative feedback interconnection of two subsystems: a state-space model of admittance transfer functions and a vibro-acoustic system with rigid boundary conditions. Stacking the states of these two subsystems gives the final descriptor system. Then, due to the passivity of the admittance transfer function and the definiteness of the system matrices, the second-order form of the descriptor model is modified to give a full-order model which is proven to be stability-preserving under one-sided projection methods. A coupled vibro-acoustic system is experimentally presented which demonstrates that the proposed methodology can provide a stable reduced order model and allows the full field estimation of the pressure in the presence of frequency-dependent boundary conditions.
 
 # Summary. An optional shortened abstract.
-#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+ summary: ''
 
 tags:
 - Source Themes
@@ -28,14 +28,14 @@ featured: false
 links:
 - name: Full paper
   url: https://www.sciencedirect.com/science/article/pii/S0888327023007550
-#url_pdf: http://arxiv.org/pdf/1512.04133v1
-#url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-#url_dataset: '#'
-#url_poster: '#'
-#url_project: ''
-#url_slides: ''
-#url_source: '#'
-#url_video: '#'
+url_pdf: ''
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
