@@ -187,27 +187,27 @@ sections:
 #      subtitle: ''
 #      text: |-
 #        {{< gallery album="demo" >}}
-#    design:
-#      columns: '1'
-#  - block: collection
+    design:
+       columns: '1'
+   - block: collection
+     id: featured
+     content:
+       title: Recent Publications
+       filters:
+         folders:
+           - publication
+         featured_only: true
+   # design:
+  #    columns: '2'
+ #     view: card
+ # - block: collection
 #    id: featured
 #    content:
-#      title: Featured Publications
- #     filters:
-  #      folders:
-   #       - publication
-    #    featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    id: featured
-    content:
-      title: Recent Publications
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
+#      title: Recent Publications
+#      filters:
+ #       folders:
+ #         - publication
+ #       exclude_featured: true
 #    design:
  #     columns: '2'
 #      view: citation
