@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: "Model order reduction of time-domain vibro-acoustic finite element simulations with non-locally reacting absorbers"
 authors:
 - admin
 - Robert Ford
