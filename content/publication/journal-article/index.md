@@ -26,17 +26,17 @@ publication_short: "CMAME"
 abstract: "Time-domain vibro-acoustic finite element simulation gained considerable interest in recent years because of the rise of some applications such as auralization and virtual sensing. Efficiency and stability are of great importance for this topic. The number of elements needed per wavelength to reach acceptable accuracy often results in a large model size, which requires lots of computational resources and cannot run efficiently. Model order reduction can significantly alleviate this problem by reducing the size of these models, while maintaining the high-fidelity property. However, many model order reduction techniques fail to preserve the stability for non-locally reacting absorbers, which are often accounted for by using the Helmholtz equation with frequency-dependent density and bulk modulus, known as the equivalent fluid method. When discretized into a finite element model, frequency-dependent mass and stiffness matrices are introduced, which hinder the preservation of stability in the context of model order reduction. This paper presents a method that enables the creation of a stable reduced order model of a vibro-acoustic system with non-locally absorbers. This method reforms the Helmholtz equation and considers it as the interconnection of several passive systems. Stacking the states of these subsystems gives the final descriptor representation of the non-locally reacting absorbers. Furthermore, a possible second-order representation of the descriptor model is chosen such that it satisfies the stability-preserving condition under model order reduction. The resulting second-order model is coupled with a vibro-acoustic system in a velocity potential-displacement formulation, leading to a second-order model satisfying the aforementioned stability-preserving condition. The proposed method is successfully verified by several numerical simulations."
 
 # Summary. An optional shortened abstract.
-summary: "vibro-acoustics; finite element method; non-locally reacting absorbers; model order reduction; time domain"
+summary: "Keywords: Vibro-acoustics; Finite element method; Non-locally reacting absorbers; Model order reduction; Time domain"
 
 tags:
 - Source Themes
 featured: false
 
 # links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+ - name: "Full Paper"
+   url: "https://www.sciencedirect.com/science/article/pii/S0888327023007550"
+url_pdf: ''
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
