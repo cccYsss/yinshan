@@ -1,10 +1,10 @@
 ---
-title: "Model order reduction of time-domain vibro-acoustic finite element simulations with non-locally reacting absorbers"
+title: "Model order reduction of time-domain vibro-acoustic finite element simulations with admittance boundary conditions for virtual sensing applications"
 authors:
 - admin
-- Sjoerd vna Ophem
+- Sjoerd van Ophem
 - Wim Desmet
-- Elke Deckers
+- Elke deckers
 author_notes:
 - ""
 - ""
@@ -20,19 +20,19 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Computer Methods in Applied Mechanics and Engineering"
-publication_short: "CMAME"
+publication: "Mechanical Systems and Signal Processing"
+publication_short: "MSSP"
 
-abstract: "Time-domain vibro-acoustic finite element simulation gained considerable interest in recent years because of the rise of some applications such as auralization and virtual sensing. Efficiency and stability are of great importance for this topic. The number of elements needed per wavelength to reach acceptable accuracy often results in a large model size, which requires lots of computational resources and cannot run efficiently. Model order reduction can significantly alleviate this problem by reducing the size of these models, while maintaining the high-fidelity property. However, many model order reduction techniques fail to preserve the stability for non-locally reacting absorbers, which are often accounted for by using the Helmholtz equation with frequency-dependent density and bulk modulus, known as the equivalent fluid method. When discretized into a finite element model, frequency-dependent mass and stiffness matrices are introduced, which hinder the preservation of stability in the context of model order reduction. This paper presents a method that enables the creation of a stable reduced order model of a vibro-acoustic system with non-locally absorbers. This method reforms the Helmholtz equation and considers it as the interconnection of several passive systems. Stacking the states of these subsystems gives the final descriptor representation of the non-locally reacting absorbers. Furthermore, a possible second-order representation of the descriptor model is chosen such that it satisfies the stability-preserving condition under model order reduction. The resulting second-order model is coupled with a vibro-acoustic system in a velocity potential-displacement formulation, leading to a second-order model satisfying the aforementioned stability-preserving condition. The proposed method is successfully verified by several numerical simulations."
+abstract: "Virtual sensing employs an estimator that combines a numerical model and a limited set of measurements to estimate the full field pressure of a vibro-acoustic system in the time domain. A key aspect of virtual sensing is to create a reduced-order model of the vibro-acoustic system, such that the numerical model can be effectively employed in the virtual sensing scheme. This paper aims to create a reduced-order vibro-acoustic finite element model with frequency-dependent admittance boundary conditions for virtual sensing applications using a Kalman filter. The frequency-dependent components in admittance boundary conditions always result in a frequency-dependent damping matrix which hinders the modeling in the time domain. This paper first treats the vibro-acoustic system as a negative feedback interconnection of two subsystems: a state-space model of admittance transfer functions and a vibro-acoustic system with rigid boundary conditions. Stacking the states of these two subsystems gives the final descriptor system. Then, due to the passivity of the admittance transfer function and the definiteness of the system matrices, the second-order form of the descriptor model is modified to give a full-order model which is proven to be stability-preserving under one-sided projection methods. A coupled vibro-acoustic system is experimentally presented which demonstrates that the proposed methodology can provide a stable reduced order model and allows the full field estimation of the pressure in the presence of frequency-dependent boundary conditions."
 
 # Summary. An optional shortened abstract.
-summary: "Keywords: Vibro-acoustics; Finite element method; Non-locally reacting absorbers; Model order reduction; Time domain"
+summary: 'Keywords: Vibro-acoustics; Finite element method; Time-domain admittance boundary condition; Model order reduction; Virtual sensing'
 
 tags:
 - Source Themes
 featured: false
 
-# links:
+links:
  - name: "Full Paper"
    url: "https://www.sciencedirect.com/science/article/pii/S0888327023007550"
 url_pdf: ''
@@ -47,7 +47,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # image:
-#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+#  caption: ''
 #  focal_point: ""
 #  preview_only: false
 
